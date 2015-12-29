@@ -12,13 +12,8 @@
     <div id="NavigatorText">
         <span style="float: right;margin-right: -24px;">פרטים</span>
         <span style="margin-right: -5px;">תשלום</span>
-<<<<<<< HEAD
         <span style="float: left;margin-left: 2px;">סיום</span>
         <span style="float: left;margin-left: 2px;">סיום</span>
         <span style="float: left;margin-left: 2px;">סיום</span>
-=======
-        <span style="float: left;margin-left: 4px;">סיום</span>
-        <span style="float: left;margin-left: 4px;">סיום</span>
->>>>>>> refs/remotes/origin/master
     </div>
 </div>
