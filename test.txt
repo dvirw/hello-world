@@ -16,5 +16,6 @@
         <span style="float: left;margin-left: 12px;">סיום</span>
         <div>chiki cki</div>
         <div>dubi</div>
+        <div>shubi</div>
     </div>
 </div>
