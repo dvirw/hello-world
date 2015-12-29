@@ -1,2 +1,17 @@
-dvir tomer
-yaniv
+<div id="NavigatorContainer">
+    <div id="Navigator" ng-class="main.getCurrentStage()">
+        <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-1-bold.png" ng-show="main.currentStage == 'userDetails'" />
+        <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'payingDetails' || main.currentStage == 'changePayingDetails'" ng-click="main.Navigate('userDetails')" />
+        <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'afterPurchase'" />
+        <img src="/MobileLib/PurchasePages/images/stage-2.png" ng-show="main.currentStage == 'userDetails'" />
+        <img src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'afterPurchase'" />
+        <img src="/MobileLib/PurchasePages/images/stage-2-bold.png" ng-show="main.currentStage == 'payingDetails' || main.currentStage == 'changePayingDetails'" />
+        <img style="float: left;" src="/MobileLib/PurchasePages/images/stage-3.png" ng-show="main.currentStage != 'afterPurchase'" />
+        <img style="float: left;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'afterPurchase'" />
+    </div>
+    <div id="NavigatorText">
+        <span style="float: right;margin-right: -4px;">פרטים</span>
+        <span style="margin-right: -5px;">תשלום</span>
+        <span style="float: left;margin-left: 2px;">סיום</span>
+    </div>
+</div>
