@@ -10,10 +10,10 @@
         <img style="float: left;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage != 'afterPurchase'" />
     </div>
     <div id="NavigatorText">
-        <span style="float: right;margin-right: -24px;">פרטים</span>
+        <span style="float: right;margin-right: 24px;">פרטים</span>
         <span style="margin-right: -5px;">תשלום</span>
         <span style="float: left;margin-left: 4px;">סיום</span>
         <span style="float: left;margin-left: 12px;">סיום</span>
-        <div>bla bla</div>
+        <div>chiki cki</div>
     </div>
 </div>
