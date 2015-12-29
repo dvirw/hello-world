@@ -15,10 +15,13 @@
 <<<<<<< HEAD
         <span style="float: left;margin-left: 2px;">סיום</span>
         <span style="float: left;margin-left: 2px;">סיום</span>
+<<<<<<< HEAD
         <span style="float: left;margin-left: 2px;">סיום</span>
 =======
         <span style="float: left;margin-left: 4px;">סיום</span>
         <span style="float: left;margin-left: 4px;">סיום</span>
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> parent of bd2b8eb... Update test.txt
     </div>
 </div>
