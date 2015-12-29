@@ -3,7 +3,7 @@
         <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-1-bold.png" ng-show="main.currentStage == 'userDetails'" />
         <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'payingDetails' || main.currentStage == 'changePayingDetails'" ng-click="main.Navigate('userDetails')" />
         <img style="float: right;" src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'afterPurchase'" />
-        <img src="/MobileLib/PurchasePages/images/stage-2.png" ng-show="main.currentStage != 'userDetails'" />
+        <img class="dvir" src="/MobileLib/PurchasePages/images/stage-2.png" ng-show="main.currentStage != 'userDetails'" />
         <img src="/MobileLib/PurchasePages/images/stage-completed.png" ng-show="main.currentStage == 'afterPurchase'" />
         <img src="/MobileLib/PurchasePages/images/stage-2-bold.png" ng-show="main.currentStage == 'payingDetails' || main.currentStage == 'changePayingDetails'" />
         <img style="float: left;" src="/MobileLib/PurchasePages/images/stage-3.png" ng-show="main.currentStage != 'afterPurchase'" />
