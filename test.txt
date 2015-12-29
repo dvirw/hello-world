@@ -14,5 +14,6 @@
         <span style="margin-right: -5px;">תשלום</span>
         <span style="float: left;margin-left: 2px;">סיום</span>
         <span style="float: left;margin-left: 2px;">סיום</span>
+        <span style="float: left;margin-left: 2px;">סיום</span>
     </div>
 </div>
